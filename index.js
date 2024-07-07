@@ -11,7 +11,7 @@ const config = {
     ssl: {
         rejectUnauthorized: true,
         ca: fs
-            .readFileSync("/User/work/.postgresql/root.crt")
+            .readFileSync("/Users/work/.postgresql/root.crt")
             .toString(),
     },
 };
